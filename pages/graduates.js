@@ -21,12 +21,18 @@ export default function Graduates() {
           <p className={styles.callToActionTitle}>
             Hello, Turing! Where full-heart mentorship happens
           </p>
-          <button className={styles.actionButton}>BECOME A JEDY!</button>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdAK72aTAqXNq5PHiHo1rteIeL3fg8MG1VNkf0jFNqPpSNg2A/viewform"
+          >
+            <button className={styles.actionButton}>BECOME A JEDY!</button>
+          </a>
         </div>
         <div className={styles.footer}>
           <div className={styles.footerButtons}>
-            <button className={styles.footerButton}>О сообществе</button>
-            <button className={styles.footerButton}>Программа</button>
+            {/* <button className={styles.footerButton}>О сообществе</button>
+            <button className={styles.footerButton}>Программа</button> */}
           </div>
           <Image
             className={styles.logo}

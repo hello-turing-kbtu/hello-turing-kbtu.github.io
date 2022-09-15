@@ -6,8 +6,8 @@ export default function Welcome() {
     <div className={styles.headerContainer}>
       <header className={styles.header}>
         <div className={styles.buttonsBlock}>
-          <button className={styles.headerButton}>О сообществе</button>
-          <button className={styles.headerButton}>Программа</button>
+          {/* <button className={styles.headerButton}>О сообществе</button>
+          <button className={styles.headerButton}>Программа</button> */}
         </div>
         <div className={styles.logoBlock}>
           <Image

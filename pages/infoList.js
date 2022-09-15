@@ -49,7 +49,13 @@ export default function InfoList() {
           <hr className={styles.new} />
         </div>
 
-        <button className={styles.actionButton}>ПОГНАЛИ!</button>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdAK72aTAqXNq5PHiHo1rteIeL3fg8MG1VNkf0jFNqPpSNg2A/viewform"
+        >
+          <button className={styles.actionButton}>ПОГНАЛИ!</button>
+        </a>
       </div>
     </div>
   );
