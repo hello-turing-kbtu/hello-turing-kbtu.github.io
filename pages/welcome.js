@@ -19,7 +19,7 @@ export default function Welcome() {
           <Image
             src="/turingLogoWhite.png"
             alt="Vercel Logo"
-            width={85}
+            width={86}
             height={85}
           />
         </div>
