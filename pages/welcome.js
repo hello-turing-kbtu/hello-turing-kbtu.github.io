@@ -13,7 +13,7 @@ export default function Welcome() {
           <Image
             src="/kbtuLogo.svg"
             alt="Vercel Logo"
-            width={80}
+            width={140}
             height={51}
           />
           <Image

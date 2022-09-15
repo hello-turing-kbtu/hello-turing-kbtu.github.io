@@ -28,6 +28,7 @@
     margin-top: 20px;
     width: 200px;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .headerContainer {
