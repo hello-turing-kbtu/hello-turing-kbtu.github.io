@@ -8,8 +8,8 @@ export default function Graduates() {
       <div className={styles.subcontainer}>
         <p className={styles.title}>Graduates_2019</p>
         <div className={styles.graduates}>
-          {gradList.map((el) => (
-            <div className={styles.card}>
+          {gradList.map((el, index) => (
+            <div key={index} className={styles.card}>
               <Image src={el.imagePath} width={277} height={339}></Image>
               <p className={styles.cardTitle}>{el.name}</p>
               <p className={styles.cardDescription}>{el.now}</p>

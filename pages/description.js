@@ -9,7 +9,7 @@ export default function Description() {
           HELLO,<i>TURING!</i>
         </p>
         <p className={`${styles.description} ${styles.firstDescription}`}>
-          Менторская программа “H>T!” была начата в 2018 году с желанием помочь
+          Менторская программа “H{'>'}T!” была начата в 2018 году с желанием помочь
           студентам найти свой путь <i className={styles.italic}>джедая</i>
         </p>
         <div className={styles.descriptionWithImage}>
